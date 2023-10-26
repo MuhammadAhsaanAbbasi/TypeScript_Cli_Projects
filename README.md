@@ -1,6 +1,7 @@
 # Typescript_Cli_Projects
 
-This repo contain all the answer of Type-script Qustion and Queries Pratice.
+<p>This repo contain all the answer of Type-script Qustion and Queries Pratice.</p>
+
 Run All these Commands in Terminal
 ```bash
    npx ahsaan_cli_calculator
