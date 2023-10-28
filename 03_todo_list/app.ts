@@ -39,10 +39,10 @@ const AddTodo = async () => {
 
         const input = await inquirer.prompt([
             {
-                name: chalk.rgb(255, 148, 140)('Enter TODO')
+                name: ('Enter TODO')
             }
         ])
-        value = await input['\x1B[38;2;255;148;140mEnter TODO\x1B[39m']
+        value = await input['Enter TODO']
         if (value.trim()){
             break
         }
@@ -112,12 +112,12 @@ const DisplayTodos = async () => {
     })
     const input = await inquirer.prompt([
         {
-            name: chalk.rgb(255, 255, 160)('Select TODO'),
+            name: ('Select TODO'),
             type: "list",
             choices: todo
         }
     ])
-    let value = await input['\x1B[38;2;255;255;160mSelect TODO\x1B[39m']
+    let value = await input['Select TODO']
     await DisplaySingleTodo(value)
 
 }
@@ -137,11 +137,11 @@ while(true){
     
     const input = await inquirer.prompt([
         {
-            name: chalk.rgb(255, 255, 160)(`Do You Want To Exit?`),
+            name: (`Do You Want To Exit?`),
             type: "confirm",
         }
     ])
-    let value: boolean = await input['\x1B[38;2;255;255;160mDo You Want To Exit?\x1B[39m'] 
+    let value: boolean = await input['Do You Want To Exit?'] 
     if (value) {
         break;
     }
