@@ -60,9 +60,9 @@ function countTime(completedTime:string){
 
 console.log(chalk.bgRgb(178,97,68).whiteBright(`  Instructions:  `))
 console.log(chalk.whiteBright(`--------------------------------------------------------------------------`))
-console.log(`${chalk.whiteBright('=>')} Date Format: ${chalk.bgRgb(35,91,168).whiteBright(' MM/DD/YYYY')} Example: ${chalk.bgRgb(35,91,168).whiteBright(' 1/25/2024 ')}.`)
+console.log(`${chalk.whiteBright('=>')} Date Format: ${chalk.bgRgb(35,91,168).whiteBright(' MM/DD/YYYY')} Example: ${chalk.bgRgb(35,91,168).whiteBright(' 02/24/2024 ')}.`)
 console.log(chalk.whiteBright(`--------------------------------------------------------------------------`))
-console.log(`${chalk.whiteBright('=>')} Time Format: ${chalk.bgRgb(35,91,168).whiteBright(' Hours[0-12]:Minutes[0-59] PM/AM ')} Example: ${chalk.bgRgb(35,91,168).whiteBright(' 11:30 AM ')}.`)
+console.log(`${chalk.whiteBright('=>')} Time Format: ${chalk.bgRgb(35,91,168).whiteBright(' Hours[0-12]:Minutes[0-59] PM/AM ')} Example: ${chalk.bgRgb(35,91,168).whiteBright(' 06:10 AM ')}.`)
 console.log(chalk.whiteBright(`--------------------------------------------------------------------------`))
 console.log(`${chalk.whiteBright('=>')} Timer Will Be Expired If Time Is Ended.`)
 console.log(chalk.whiteBright(`--------------------------------------------------------------------------`))
